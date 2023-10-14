@@ -1,6 +1,6 @@
 ﻿namespace winfontchanger
 {
-    partial class Form1
+    partial class mainform
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,12 +28,136 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainform));
+            toolbar_title = new System.Windows.Forms.Label();
+            toolbar_dsgn = new System.Windows.Forms.Panel();
+            toolbar = new System.Windows.Forms.Panel();
+            minBtn = new System.Windows.Forms.Label();
+            exitBtn = new System.Windows.Forms.Label();
+            fontDialog1 = new System.Windows.Forms.FontDialog();
+            label4 = new System.Windows.Forms.Label();
+            label5 = new System.Windows.Forms.Label();
+            fontfamily = new System.Windows.Forms.TextBox();
+            fontfamilyChange = new System.Windows.Forms.Button();
+            execute = new System.Windows.Forms.Button();
+            button2 = new System.Windows.Forms.Button();
+            toolbar.SuspendLayout();
+            SuspendLayout();
+            // 
+            // toolbar_title
+            // 
+            resources.ApplyResources(toolbar_title, "toolbar_title");
+            toolbar_title.Name = "toolbar_title";
+            toolbar_title.MouseMove += toolbar_title_MouseMove;
+            // 
+            // toolbar_dsgn
+            // 
+            toolbar_dsgn.BackColor = System.Drawing.Color.Maroon;
+            resources.ApplyResources(toolbar_dsgn, "toolbar_dsgn");
+            toolbar_dsgn.Name = "toolbar_dsgn";
+            // 
+            // toolbar
+            // 
+            toolbar.Controls.Add(minBtn);
+            toolbar.Controls.Add(exitBtn);
+            toolbar.Controls.Add(toolbar_title);
+            toolbar.Controls.Add(toolbar_dsgn);
+            resources.ApplyResources(toolbar, "toolbar");
+            toolbar.Name = "toolbar";
+            toolbar.MouseMove += toolbar_MouseMove;
+            // 
+            // minBtn
+            // 
+            resources.ApplyResources(minBtn, "minBtn");
+            minBtn.Name = "minBtn";
+            // 
+            // exitBtn
+            // 
+            resources.ApplyResources(exitBtn, "exitBtn");
+            exitBtn.Name = "exitBtn";
+            // 
+            // fontDialog1
+            // 
+            fontDialog1.ShowEffects = false;
+            // 
+            // label4
+            // 
+            resources.ApplyResources(label4, "label4");
+            label4.Name = "label4";
+            // 
+            // label5
+            // 
+            label5.BackColor = System.Drawing.Color.Transparent;
+            label5.ForeColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(label5, "label5");
+            label5.Name = "label5";
+            // 
+            // fontfamily
+            // 
+            fontfamily.BackColor = System.Drawing.Color.FromArgb(25, 25, 25);
+            fontfamily.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            fontfamily.ForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(fontfamily, "fontfamily");
+            fontfamily.Name = "fontfamily";
+            fontfamily.TextChanged += fontfamily_TextChanged;
+            // 
+            // fontfamilyChange
+            // 
+            resources.ApplyResources(fontfamilyChange, "fontfamilyChange");
+            fontfamilyChange.Name = "fontfamilyChange";
+            fontfamilyChange.UseVisualStyleBackColor = true;
+            fontfamilyChange.Click += button1_Click;
+            // 
+            // execute
+            // 
+            resources.ApplyResources(execute, "execute");
+            execute.FlatAppearance.BorderColor = System.Drawing.Color.Maroon;
+            execute.Name = "execute";
+            execute.UseVisualStyleBackColor = true;
+            execute.Click += execute_Click;
+            // 
+            // button2
+            // 
+            resources.ApplyResources(button2, "button2");
+            button2.FlatAppearance.BorderColor = System.Drawing.Color.Maroon;
+            button2.Name = "button2";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // mainform
+            // 
+            resources.ApplyResources(this, "$this");
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            BackColor = System.Drawing.Color.Black;
+            BackgroundImage = Properties.Resources.background;
+            Controls.Add(button2);
+            Controls.Add(execute);
+            Controls.Add(fontfamilyChange);
+            Controls.Add(fontfamily);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(toolbar);
+            ForeColor = System.Drawing.Color.White;
+            FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            MaximizeBox = false;
+            Name = "mainform";
+            toolbar.ResumeLayout(false);
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private System.Windows.Forms.Label toolbar_title;
+        private System.Windows.Forms.Panel toolbar_dsgn;
+        private System.Windows.Forms.Panel toolbar;
+        private System.Windows.Forms.Label exitBtn;
+        private System.Windows.Forms.Label minBtn;
+        private System.Windows.Forms.FontDialog fontDialog1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox fontfamily;
+        private System.Windows.Forms.Button fontfamilyChange;
+        private System.Windows.Forms.Button execute;
+        private System.Windows.Forms.Button button2;
     }
 }
