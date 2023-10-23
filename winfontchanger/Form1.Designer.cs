@@ -36,11 +36,15 @@
             exitBtn = new System.Windows.Forms.Label();
             fontDialog1 = new System.Windows.Forms.FontDialog();
             label4 = new System.Windows.Forms.Label();
-            label5 = new System.Windows.Forms.Label();
+            ver = new System.Windows.Forms.Label();
             fontfamily = new System.Windows.Forms.TextBox();
             fontfamilyChange = new System.Windows.Forms.Button();
             execute = new System.Windows.Forms.Button();
             resetDef = new System.Windows.Forms.Button();
+            selectedFontPreview = new System.Windows.Forms.Label();
+            selectedFontPreviewSub = new System.Windows.Forms.Label();
+            fontsToReplace = new System.Windows.Forms.CheckedListBox();
+            label3 = new System.Windows.Forms.Label();
             toolbar.SuspendLayout();
             SuspendLayout();
             // 
@@ -89,12 +93,12 @@
             resources.ApplyResources(label4, "label4");
             label4.Name = "label4";
             // 
-            // label5
+            // ver
             // 
-            label5.BackColor = System.Drawing.Color.Transparent;
-            label5.ForeColor = System.Drawing.Color.Silver;
-            resources.ApplyResources(label5, "label5");
-            label5.Name = "label5";
+            ver.BackColor = System.Drawing.Color.Transparent;
+            ver.ForeColor = System.Drawing.Color.Silver;
+            resources.ApplyResources(ver, "ver");
+            ver.Name = "ver";
             // 
             // fontfamily
             // 
@@ -128,17 +132,48 @@
             resetDef.UseVisualStyleBackColor = true;
             resetDef.Click += resetDef_Click;
             // 
+            // selectedFontPreview
+            // 
+            resources.ApplyResources(selectedFontPreview, "selectedFontPreview");
+            selectedFontPreview.BackColor = System.Drawing.Color.Transparent;
+            selectedFontPreview.Name = "selectedFontPreview";
+            // 
+            // selectedFontPreviewSub
+            // 
+            resources.ApplyResources(selectedFontPreviewSub, "selectedFontPreviewSub");
+            selectedFontPreviewSub.BackColor = System.Drawing.Color.Transparent;
+            selectedFontPreviewSub.Name = "selectedFontPreviewSub";
+            // 
+            // fontsToReplace
+            // 
+            fontsToReplace.BackColor = System.Drawing.Color.Black;
+            fontsToReplace.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            fontsToReplace.ForeColor = System.Drawing.Color.White;
+            fontsToReplace.FormattingEnabled = true;
+            fontsToReplace.Items.AddRange(new object[] { resources.GetString("fontsToReplace.Items"), resources.GetString("fontsToReplace.Items1") });
+            resources.ApplyResources(fontsToReplace, "fontsToReplace");
+            fontsToReplace.Name = "fontsToReplace";
+            // 
+            // label3
+            // 
+            resources.ApplyResources(label3, "label3");
+            label3.Name = "label3";
+            // 
             // mainform
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             BackColor = System.Drawing.Color.Black;
             BackgroundImage = Properties.Resources.background;
+            Controls.Add(label3);
+            Controls.Add(fontsToReplace);
+            Controls.Add(selectedFontPreviewSub);
+            Controls.Add(selectedFontPreview);
             Controls.Add(resetDef);
             Controls.Add(execute);
             Controls.Add(fontfamilyChange);
             Controls.Add(fontfamily);
-            Controls.Add(label5);
+            Controls.Add(ver);
             Controls.Add(label4);
             Controls.Add(toolbar);
             ForeColor = System.Drawing.Color.White;
@@ -159,10 +194,14 @@
         private System.Windows.Forms.Label minBtn;
         private System.Windows.Forms.FontDialog fontDialog1;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label ver;
         private System.Windows.Forms.TextBox fontfamily;
         private System.Windows.Forms.Button fontfamilyChange;
         private System.Windows.Forms.Button execute;
         private System.Windows.Forms.Button resetDef;
+        private System.Windows.Forms.Label selectedFontPreview;
+        private System.Windows.Forms.Label selectedFontPreviewSub;
+        private System.Windows.Forms.CheckedListBox fontsToReplace;
+        private System.Windows.Forms.Label label3;
     }
 }

@@ -170,6 +170,55 @@
   <data name="&gt;&gt;toolbar_dsgn.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="&gt;&gt;minBtn.Name" xml:space="preserve">
+    <value>minBtn</value>
+  </data>
+  <data name="&gt;&gt;minBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;minBtn.Parent" xml:space="preserve">
+    <value>toolbar</value>
+  </data>
+  <data name="&gt;&gt;minBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;exitBtn.Name" xml:space="preserve">
+    <value>exitBtn</value>
+  </data>
+  <data name="&gt;&gt;exitBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exitBtn.Parent" xml:space="preserve">
+    <value>toolbar</value>
+  </data>
+  <data name="&gt;&gt;exitBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="toolbar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="toolbar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="toolbar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>487, 50</value>
+  </data>
+  <data name="toolbar.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;toolbar.Name" xml:space="preserve">
+    <value>toolbar</value>
+  </data>
+  <data name="&gt;&gt;toolbar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolbar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;toolbar.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
   <data name="minBtn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Neue Haas Grotesk Text Pro Medi, 15.75pt, style=Bold</value>
   </data>
@@ -224,36 +273,11 @@
   <data name="&gt;&gt;exitBtn.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="toolbar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="toolbar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="toolbar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>487, 50</value>
-  </data>
-  <data name="toolbar.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;toolbar.Name" xml:space="preserve">
-    <value>toolbar</value>
-  </data>
-  <data name="&gt;&gt;toolbar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolbar.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;toolbar.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
   <metadata name="fontDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 169</value>
+    <value>11, 65</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 17</value>
@@ -274,34 +298,34 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>9</value>
   </data>
-  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="ver.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 465</value>
   </data>
-  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="ver.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 23</value>
   </data>
-  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+  <data name="ver.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="label5.Text" xml:space="preserve">
+  <data name="ver.Text" xml:space="preserve">
     <value>v1.0</value>
   </data>
-  <data name="&gt;&gt;label5.Name" xml:space="preserve">
-    <value>label5</value>
+  <data name="&gt;&gt;ver.Name" xml:space="preserve">
+    <value>ver</value>
   </data>
-  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+  <data name="&gt;&gt;ver.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+  <data name="&gt;&gt;ver.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;ver.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="fontfamily.Location" type="System.Drawing.Point, System.Drawing">
-    <value>91, 166</value>
+    <value>91, 62</value>
   </data>
   <data name="fontfamily.Size" type="System.Drawing.Size, System.Drawing">
     <value>360, 23</value>
@@ -322,7 +346,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;fontfamily.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>7</value>
   </data>
   <data name="fontfamilyChange.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -331,7 +355,7 @@
     <value>Neue Haas Grotesk Text Pro, 8.25pt</value>
   </data>
   <data name="fontfamilyChange.Location" type="System.Drawing.Point, System.Drawing">
-    <value>451, 166</value>
+    <value>451, 62</value>
   </data>
   <data name="fontfamilyChange.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 23</value>
@@ -352,13 +376,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;fontfamilyChange.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>6</value>
   </data>
   <data name="execute.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
   <data name="execute.Location" type="System.Drawing.Point, System.Drawing">
-    <value>397, 195</value>
+    <value>399, 173</value>
   </data>
   <data name="execute.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -379,7 +403,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;execute.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>5</value>
   </data>
   <data name="resetDef.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -388,7 +412,7 @@
     <value>NoControl</value>
   </data>
   <data name="resetDef.Location" type="System.Drawing.Point, System.Drawing">
-    <value>287, 195</value>
+    <value>289, 173</value>
   </data>
   <data name="resetDef.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 23</value>
@@ -409,6 +433,117 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;resetDef.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="selectedFontPreview.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="selectedFontPreview.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Neue Haas Grotesk Text Pro, 20.25pt</value>
+  </data>
+  <data name="selectedFontPreview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 332</value>
+  </data>
+  <data name="selectedFontPreview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 34</value>
+  </data>
+  <data name="selectedFontPreview.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="selectedFontPreview.Text" xml:space="preserve">
+    <value>Selected Font</value>
+  </data>
+  <data name="&gt;&gt;selectedFontPreview.Name" xml:space="preserve">
+    <value>selectedFontPreview</value>
+  </data>
+  <data name="&gt;&gt;selectedFontPreview.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;selectedFontPreview.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;selectedFontPreview.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="selectedFontPreviewSub.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="selectedFontPreviewSub.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 369</value>
+  </data>
+  <data name="selectedFontPreviewSub.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 15</value>
+  </data>
+  <data name="selectedFontPreviewSub.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="selectedFontPreviewSub.Text" xml:space="preserve">
+    <value>Aa Bb Cc Dd 123450 $ The quick brown fox fell in hell.</value>
+  </data>
+  <data name="&gt;&gt;selectedFontPreviewSub.Name" xml:space="preserve">
+    <value>selectedFontPreviewSub</value>
+  </data>
+  <data name="&gt;&gt;selectedFontPreviewSub.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;selectedFontPreviewSub.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;selectedFontPreviewSub.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="fontsToReplace.Items" xml:space="preserve">
+    <value>Segoe UI Regular</value>
+  </data>
+  <data name="fontsToReplace.Items1" xml:space="preserve">
+    <value>Segoe UI Semibold</value>
+  </data>
+  <data name="fontsToReplace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 91</value>
+  </data>
+  <data name="fontsToReplace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>383, 72</value>
+  </data>
+  <data name="fontsToReplace.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;fontsToReplace.Name" xml:space="preserve">
+    <value>fontsToReplace</value>
+  </data>
+  <data name="&gt;&gt;fontsToReplace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fontsToReplace.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;fontsToReplace.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 91</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 15</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>To replace...</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
