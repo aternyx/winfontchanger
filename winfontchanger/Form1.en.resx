@@ -201,4 +201,13 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Font Changer - shuriken.pm</value>
   </data>
+  <data name="fontfamilyChange.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Reset To Default</value>
+  </data>
+  <data name="execute.Text" xml:space="preserve">
+    <value>Execute</value>
+  </data>
 </root>

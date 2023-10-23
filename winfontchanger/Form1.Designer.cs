@@ -40,7 +40,7 @@
             fontfamily = new System.Windows.Forms.TextBox();
             fontfamilyChange = new System.Windows.Forms.Button();
             execute = new System.Windows.Forms.Button();
-            button2 = new System.Windows.Forms.Button();
+            resetDef = new System.Windows.Forms.Button();
             toolbar.SuspendLayout();
             SuspendLayout();
             // 
@@ -68,13 +68,17 @@
             // 
             // minBtn
             // 
+            minBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             resources.ApplyResources(minBtn, "minBtn");
             minBtn.Name = "minBtn";
+            minBtn.Click += minBtn_Click;
             // 
             // exitBtn
             // 
+            exitBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             resources.ApplyResources(exitBtn, "exitBtn");
             exitBtn.Name = "exitBtn";
+            exitBtn.Click += exitBtn_Click;
             // 
             // fontDialog1
             // 
@@ -110,18 +114,19 @@
             // 
             // execute
             // 
-            resources.ApplyResources(execute, "execute");
             execute.FlatAppearance.BorderColor = System.Drawing.Color.Maroon;
+            resources.ApplyResources(execute, "execute");
             execute.Name = "execute";
             execute.UseVisualStyleBackColor = true;
             execute.Click += execute_Click;
             // 
-            // button2
+            // resetDef
             // 
-            resources.ApplyResources(button2, "button2");
-            button2.FlatAppearance.BorderColor = System.Drawing.Color.Maroon;
-            button2.Name = "button2";
-            button2.UseVisualStyleBackColor = true;
+            resetDef.FlatAppearance.BorderColor = System.Drawing.Color.Maroon;
+            resources.ApplyResources(resetDef, "resetDef");
+            resetDef.Name = "resetDef";
+            resetDef.UseVisualStyleBackColor = true;
+            resetDef.Click += resetDef_Click;
             // 
             // mainform
             // 
@@ -129,7 +134,7 @@
             AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             BackColor = System.Drawing.Color.Black;
             BackgroundImage = Properties.Resources.background;
-            Controls.Add(button2);
+            Controls.Add(resetDef);
             Controls.Add(execute);
             Controls.Add(fontfamilyChange);
             Controls.Add(fontfamily);
@@ -158,6 +163,6 @@
         private System.Windows.Forms.TextBox fontfamily;
         private System.Windows.Forms.Button fontfamilyChange;
         private System.Windows.Forms.Button execute;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button resetDef;
     }
 }

@@ -170,55 +170,6 @@
   <data name="&gt;&gt;toolbar_dsgn.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;minBtn.Name" xml:space="preserve">
-    <value>minBtn</value>
-  </data>
-  <data name="&gt;&gt;minBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;minBtn.Parent" xml:space="preserve">
-    <value>toolbar</value>
-  </data>
-  <data name="&gt;&gt;minBtn.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;exitBtn.Name" xml:space="preserve">
-    <value>exitBtn</value>
-  </data>
-  <data name="&gt;&gt;exitBtn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;exitBtn.Parent" xml:space="preserve">
-    <value>toolbar</value>
-  </data>
-  <data name="&gt;&gt;exitBtn.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="toolbar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="toolbar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="toolbar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>487, 50</value>
-  </data>
-  <data name="toolbar.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;toolbar.Name" xml:space="preserve">
-    <value>toolbar</value>
-  </data>
-  <data name="&gt;&gt;toolbar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;toolbar.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;toolbar.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
   <data name="minBtn.Font" type="System.Drawing.Font, System.Drawing">
     <value>Neue Haas Grotesk Text Pro Medi, 15.75pt, style=Bold</value>
   </data>
@@ -273,11 +224,36 @@
   <data name="&gt;&gt;exitBtn.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="toolbar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="toolbar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="toolbar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>487, 50</value>
+  </data>
+  <data name="toolbar.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;toolbar.Name" xml:space="preserve">
+    <value>toolbar</value>
+  </data>
+  <data name="&gt;&gt;toolbar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolbar.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;toolbar.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
   <metadata name="fontDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 72</value>
+    <value>14, 169</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 17</value>
@@ -325,7 +301,7 @@
     <value>4</value>
   </data>
   <data name="fontfamily.Location" type="System.Drawing.Point, System.Drawing">
-    <value>89, 69</value>
+    <value>91, 166</value>
   </data>
   <data name="fontfamily.Size" type="System.Drawing.Size, System.Drawing">
     <value>360, 23</value>
@@ -355,7 +331,7 @@
     <value>Neue Haas Grotesk Text Pro, 8.25pt</value>
   </data>
   <data name="fontfamilyChange.Location" type="System.Drawing.Point, System.Drawing">
-    <value>449, 69</value>
+    <value>451, 166</value>
   </data>
   <data name="fontfamilyChange.Size" type="System.Drawing.Size, System.Drawing">
     <value>23, 23</value>
@@ -378,14 +354,11 @@
   <data name="&gt;&gt;fontfamilyChange.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="execute.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
   <data name="execute.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
   <data name="execute.Location" type="System.Drawing.Point, System.Drawing">
-    <value>397, 198</value>
+    <value>397, 195</value>
   </data>
   <data name="execute.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -408,37 +381,34 @@
   <data name="&gt;&gt;execute.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="button2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+  <data name="resetDef.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="resetDef.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>287, 198</value>
+  <data name="resetDef.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 195</value>
   </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="resetDef.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 23</value>
   </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+  <data name="resetDef.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="button2.Text" xml:space="preserve">
+  <data name="resetDef.Text" xml:space="preserve">
     <value>Reset To Default</value>
   </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
+  <data name="&gt;&gt;resetDef.Name" xml:space="preserve">
+    <value>resetDef</value>
   </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+  <data name="&gt;&gt;resetDef.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;resetDef.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;resetDef.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
