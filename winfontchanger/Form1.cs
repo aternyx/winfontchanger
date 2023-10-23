@@ -78,6 +78,16 @@ namespace winfontchanger
                     {
                         if (fontFamily.Name.Equals(fontfamily.Text, StringComparison.OrdinalIgnoreCase))
                         {
+                            // 
+                            string suiReg = "Segoe UI Regular";
+                            string suiSeB = "Segoe UI Semibold";
+                            string suiBld = "Segoe UI Bold";
+                            string suiBlI = "Segoe UI Bold Italic";
+                            string suiItl = "Segoe UI Italic";
+                            string suiLit = "Segoe UI Light";
+                            string suiSbl = "Segoe UI Semibold";
+                            string suiSym = "Segoe UI Symbol";
+
                             string temppath = System.IO.Path.GetTempPath();
                             bool hasBackslash = temppath.EndsWith("\\");
                             if (hasBackslash)
