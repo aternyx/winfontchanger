@@ -382,7 +382,7 @@
     <value>Flat</value>
   </data>
   <data name="execute.Location" type="System.Drawing.Point, System.Drawing">
-    <value>399, 173</value>
+    <value>399, 91</value>
   </data>
   <data name="execute.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -412,7 +412,7 @@
     <value>NoControl</value>
   </data>
   <data name="resetDef.Location" type="System.Drawing.Point, System.Drawing">
-    <value>289, 173</value>
+    <value>289, 91</value>
   </data>
   <data name="resetDef.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 23</value>
@@ -498,11 +498,29 @@
   <data name="fontsToReplace.Items1" xml:space="preserve">
     <value>Segoe UI Semibold</value>
   </data>
+  <data name="fontsToReplace.Items2" xml:space="preserve">
+    <value>Segoe UI Bold</value>
+  </data>
+  <data name="fontsToReplace.Items3" xml:space="preserve">
+    <value>Segoe UI Bold Italic</value>
+  </data>
+  <data name="fontsToReplace.Items4" xml:space="preserve">
+    <value>Segoe UI Italic</value>
+  </data>
+  <data name="fontsToReplace.Items5" xml:space="preserve">
+    <value>Segoe UI Light</value>
+  </data>
+  <data name="fontsToReplace.Items6" xml:space="preserve">
+    <value>Segoe UI Semibold</value>
+  </data>
+  <data name="fontsToReplace.Items7" xml:space="preserve">
+    <value>Segoe UI Symbol</value>
+  </data>
   <data name="fontsToReplace.Location" type="System.Drawing.Point, System.Drawing">
     <value>91, 91</value>
   </data>
   <data name="fontsToReplace.Size" type="System.Drawing.Size, System.Drawing">
-    <value>383, 72</value>
+    <value>170, 144</value>
   </data>
   <data name="fontsToReplace.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>

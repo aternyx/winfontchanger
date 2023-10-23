@@ -150,7 +150,7 @@
             fontsToReplace.BorderStyle = System.Windows.Forms.BorderStyle.None;
             fontsToReplace.ForeColor = System.Drawing.Color.White;
             fontsToReplace.FormattingEnabled = true;
-            fontsToReplace.Items.AddRange(new object[] { resources.GetString("fontsToReplace.Items"), resources.GetString("fontsToReplace.Items1") });
+            fontsToReplace.Items.AddRange(new object[] { resources.GetString("fontsToReplace.Items"), resources.GetString("fontsToReplace.Items1"), resources.GetString("fontsToReplace.Items2"), resources.GetString("fontsToReplace.Items3"), resources.GetString("fontsToReplace.Items4"), resources.GetString("fontsToReplace.Items5"), resources.GetString("fontsToReplace.Items6"), resources.GetString("fontsToReplace.Items7") });
             resources.ApplyResources(fontsToReplace, "fontsToReplace");
             fontsToReplace.Name = "fontsToReplace";
             // 
